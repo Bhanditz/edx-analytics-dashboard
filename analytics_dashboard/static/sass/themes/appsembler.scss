@@ -1,0 +1,28 @@
+$brand-logo-path: '/static/images/appsembler-logo-negative.png';
+$brand-logo-width: 378px;
+$brand-logo-height: 106px;
+
+@import "open-edx";
+
+
+.navbar-brand {
+  padding: 0;
+
+  .navbar-brand-logo {
+    width: 200px;
+    height: 75px;
+    margin-right: 0;
+    background-image: url("/static/images/appsembler-logo-positive.png");
+  }
+
+  .navbar-brand-app {
+    padding-top: 0px;
+    padding-bottom: 4px;
+  }
+}
+
+.landing {
+  .login-button-container {
+    padding-top: 18px;  
+  }
+}
