@@ -416,7 +416,7 @@ with open(join(DOCS_ROOT, "config.ini")) as config_file:
 
 ########## THEME CONFIGURATION
 # Path of the SCSS file to use for the site's theme
-THEME_SCSS = 'sass/themes/open-edx.scss'
+THEME_SCSS = os.getenv('THEME_SCSS', 'sass/themes/open-edx.scss')
 ########## END THEME CONFIGURATION
 
 ########## COURSE API
